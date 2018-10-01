@@ -1,6 +1,6 @@
 package modules;
 
-import data.SearchDeclareCustomsDeclarationData;
+import datasets.SearchDeclareCustomsDeclarationData;
 import libraries.SearchDeclareCustomsDeclarationFunction;
 import org.testng.annotations.Test;
 

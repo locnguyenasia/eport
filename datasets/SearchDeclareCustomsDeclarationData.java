@@ -1,4 +1,4 @@
-package data;
+package datasets;
 
 import org.testng.annotations.DataProvider;
 import supports.ReadDataTest;
@@ -9,9 +9,9 @@ public class SearchDeclareCustomsDeclarationData {
     @DataProvider(name = "SearchDeclareCustomsDeclarationData")
     public static Object[][] objData(Method m) {
 
-        int sheet = 1;
-        int row = 5; //row>1
-        int col = 8;
+        int sheet=1;
+        int row=5; //row>1
+        int col=8;
         String arr[][];
         arr = new String[row][col];
 

@@ -1,10 +1,10 @@
 package objects;
 
 import org.openqa.selenium.By;
-import data.SearchContainerInformationData;
+import datasets.SearchContainerInformationData;
 
 public class SearchContainerInformationObject {
-    public By searchLnk = By.xpath("//*[@id=\"side-menu\"]/li[1]/a");
+    public static By searchLnk = By.xpath("//*[@id=\"side-menu\"]/li[1]/a");
     public By containerInformationLnk = By.xpath("//a[contains(text(),'Thông tin container')]");
     public By areaDdl = By.xpath("//*[@id=\"cbSite\"]/div/div[2]/span");
     public By selectAreaDdl = By.xpath("//*[@id=\"cbSite_L_LBI" + SearchContainerInformationData.optionArea + "LBL\"]");

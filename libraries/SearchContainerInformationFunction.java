@@ -2,7 +2,7 @@ package libraries;
 
 import objects.SearchContainerInformationObject;
 import static supports.CommonFunctions.*;
-import data.SearchContainerInformationData;
+import datasets.SearchContainerInformationData;
 
 public class SearchContainerInformationFunction {
 
@@ -16,7 +16,6 @@ public class SearchContainerInformationFunction {
     public void fillForm(String container){
         click(obj.areaDdl);
         click(obj.selectAreaDdl);
-
 
         if ((SearchContainerInformationData.inYard).equalsIgnoreCase("false")) {
             if (isSelected(obj.inYardChk)==true){

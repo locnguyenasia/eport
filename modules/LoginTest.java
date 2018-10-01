@@ -1,6 +1,6 @@
 package modules;
 
-import data.LoginData;
+import datasets.LoginData;
 import libraries.LoginFunction;
 import org.testng.Assert;
 import org.testng.annotations.Test;

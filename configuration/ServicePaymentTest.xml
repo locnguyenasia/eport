@@ -1,0 +1,12 @@
+<suite name="suite" verbose="2">
+    <!--<listeners>-->
+    <!--<listener class-name="supports.ExcelReport"/>-->
+    <!--</listeners>-->
+    <test name="Service_Payment">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="http://103.226.109.43:8005"/>
+        <classes>
+            <class name="modules.ServicePaymentTest"/>
+        </classes>
+    </test>
+</suite>

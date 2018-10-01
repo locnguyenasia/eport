@@ -2,7 +2,7 @@
     <listeners>
         <listener class-name="supports.ExcelReport"/>
     </listeners>
-    <test name="Danh_Sach_Khai_Bao_To_Khai_SoQlhh">
+    <test name="Search_Declare_Customs_Declaration">
         <parameter name="browser" value="chrome"/>
         <parameter name="url" value="http://103.226.109.43:8005"/>
         <classes>
