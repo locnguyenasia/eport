@@ -119,7 +119,11 @@ public class CommonFunctions {
     //************************************************************************************************************
     public static void waitForElementPresent(By by) {
         try {
+<<<<<<< HEAD
             Thread.sleep(500);
+=======
+            Thread.sleep(1000);
+>>>>>>> d946df59997af7e97d003d69564b2241c3ac97da
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
